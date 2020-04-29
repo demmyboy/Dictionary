@@ -25,7 +25,7 @@ def translate(word):
         elif question == "N": 
             return "Word doesnt exist, please check again."
         else:
-            return "You need to type Y or N."  
+            return "You need to type Y or N. Start again"  
     else: 
         return "Word can not be found. Think better."
 
